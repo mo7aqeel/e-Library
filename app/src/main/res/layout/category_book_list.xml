@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="16dp"
+    android:layout_margin="8dp"
+    android:background="@drawable/recycler_bg"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/imageView_category_book"
+        android:layout_width="104dp"
+        android:layout_height="134dp"
+        android:layout_alignParentEnd="true"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/book" />
+
+    <TextView
+        android:id="@+id/title_category_book"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_toStartOf="@id/imageView_category_book"
+        android:fontFamily="@font/notokufiarabic_medium"
+        android:text="إيكادولي"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/writer_category_book"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/title_category_book"
+        android:layout_marginEnd="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_toStartOf="@id/imageView_category_book"
+        android:fontFamily="@font/notokufiarabic_regular"
+        android:text="د. حنان لاشين"
+        android:textColor="@color/colorPrimary" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="22dp"
+        android:layout_height="32dp"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="8dp"
+        app:srcCompat="@drawable/ic_baseline_info_24" />
+</RelativeLayout>

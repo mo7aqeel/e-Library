@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Library</string>
+
+    <string name="search">بحث</string>
+    <string name="book_name">كتاب السر</string>
+    <string name="details">التفاصيل</string>
+    <string name="book_desc">يعد كتاب السر من أفضل كتب المساعدة الذاتية مبيعاً لعام 2006، وهو من تأليف روندا بايرن، استناداً إلى فيلم سابق بنفس الاسم. وتقوم فكرته على قانون الجذب ويدعي أن التفكير الإيجابي يمكن ان يخلق نتائج تجعل الحياة أفضل مثل الزيادة في الثروة والصحة والسعادة.</string>
+    <string name="no_internet">لا يوجد اتصال بالانترنت</string>
+    <string name="close">إغلاق</string>
+
+    <string-array name="spinner_data">
+        <item>دينية</item>
+        <item>روايات</item>
+        <item>سياسة</item>
+        <item>شعر</item>
+        <item>علم النفس</item>
+        <item>علوم</item>
+        <item>فلسفة</item>
+        <item>قانون</item>
+    </string-array>
+</resources>
